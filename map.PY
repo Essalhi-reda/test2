@@ -36,7 +36,7 @@ def create_map(lenght,widght,oeufs,apprentis):
            elif (i,j) in   list_of_eggs:
                 str+="🥚"
            else:
-                str+="🟩"
+                str+="-²"
 
         str+="\n"
     return str
